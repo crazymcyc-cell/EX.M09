@@ -60,7 +60,3 @@ button:hover {
   color: white;
   cursor: pointer;
 }
-
-.btnExcluir:hover {
-  background-color: #c2185b;
-}

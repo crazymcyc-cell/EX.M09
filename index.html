@@ -3,21 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CRUD com CrudCrud</title>
+    <title>CRUD com CrudCrud - Refatorado</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <h1>Cadastro de Clientes</h1>
 
-    <div class="form-container">
+    <section class="form-container">
       <input type="text" id="nome" placeholder="Nome" />
       <input type="email" id="email" placeholder="E-mail" />
       <button id="btnCadastrar">Cadastrar</button>
-    </div>
+    </section>
 
     <h2>Clientes Cadastrados</h2>
     <ul id="listaClientes"></ul>
 
-    <script src="scripts.js"></script>
+    <script type="module" src="./js/app.js"></script>
   </body>
 </html>
